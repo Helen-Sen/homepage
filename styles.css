@@ -32,6 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1 1 50%;
 }
 
 .resume {
@@ -169,14 +170,14 @@ body {
 }
 
 .experiences {
-    flex: 1 1 60%;
-    margin-right: 50px;
+    flex: 1 1 100%;
+    margin-right: 0px;
 }
 
 .experiences__header {
     color: var(--secondary-text-color);
-    text-align: left;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .experiences__company-header-durability {
@@ -200,10 +201,10 @@ body {
 }
 
 .experiences__company-project-role {
-    color: var(--durability-text-color);
+    color: black;
     text-align: left;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .experiences__company-project-name {
@@ -218,7 +219,7 @@ body {
 }
 
 .additional-info {
-    flex: 1 1 40%;
+    flex: 1 1 100%;
 }
 
 .additional-info__education {
@@ -227,7 +228,7 @@ body {
 
 .additional-info__education-header {
     color: var(--secondary-text-color);
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -254,10 +255,21 @@ body {
 
 .additional-info__languages-header {
     color: var(--secondary-text-color);
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
 }
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.info_column{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 20px;;
+    vertical-align: top;
+    display: flex;
+    justify-content: flex-start;
+
 }
